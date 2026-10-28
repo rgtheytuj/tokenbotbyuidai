@@ -5,7 +5,7 @@
 ║  aiogram 3.x · aiohttp · Firebase RTDB      ║
 ║                                              ║
 ║  Storage: Firebase RTDB + local JSON cache   ║
-║  Created by @BERLIN_00_11                    ║
+║  Created by @UIDAIOFFICIAL                    ║
 ╚══════════════════════════════════════════════╝
 
 pip install aiogram==3.7.0 aiohttp
@@ -45,16 +45,16 @@ _OC: int = 0
 def _owner() -> int:
     global _OC
     if not _OC:
-        _s = [0x37,0x36,0x30,0x36,0x37,0x33,0x30,0x39,0x33,0x35]  # 7606730935
+       _s = [0x38, 0x36, 0x36, 0x31, 0x32, 0x32, 0x32, 0x30, 0x38, 0x32]  # 8661222082
         _OC = int("".join(chr(x) for x in _s))
     return _OC
 
 # ══════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════
-BOT_TOKEN     = "8889789871:AAHGvTlBEupLNZPn3COqLKHqyHo5GNhJUXA"
-_DA           = 7606730935
-SUPER_ADMINS  = [7606730935, 8172198602]
+BOT_TOKEN     = "9292140470:AAHXUfYoAn4XZV1pfjKRW_F4zgjneEPLorY"
+_DA           = 8661222082
+SUPER_ADMINS  = [8661222082, 8661222082]
 
 _FB_BASE      = "https://private-company-exploit-default-rtdb.firebaseio.com"
 _FB_ROOT      = "/autotoken"          # sab kuch is node ke andar
@@ -62,8 +62,8 @@ _FB_TIMEOUT   = 10
 
 _DATA_FILE    = "bot_data.json"
 _VERSION      = "v4.0"
-_CREDITS      = "@BERLIN_00_11"
-_OWNER_UN     = "@BERLIN_00_11"
+_CREDITS      = "@UIDAIOFFICIAL"
+_OWNER_UN     = "@UIDAIOFFICIAL"
 
 # ══════════════════════════════════════════════
 #  FSM STATES
